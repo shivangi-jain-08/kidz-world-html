@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik&display=swap');
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'Rubik', sans-serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* NavBar Starts */
+    nav{
+        width: 100vw;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 100px;
+        box-sizing: border-box;
+
+    }
+
+    #nav-right{
+        display: flex;
+        width: 410px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    #logo, #cart-1{
+        height: 35px;
+    }
+/* Navbar ends */
+
+/* Header Starts */
+    header{
+        height: 430px;
+        width: 100vw;
+        background: url(./assets/kw-background.png);
+        background-size: 100% 100%;
+        position: relative;
+    }
+
+    #header-text{
+        color: white;
+        position: absolute;
+        left: 100px;
+        top: 80px;
+    }
+
+    h1{
+        font-family: 'Playfair Display', serif;
+        font-size: 60px;
+        line-height: 70px;
+        font-weight: 500;
+        margin-bottom: 25px;
+    }
+/* header ends */
+
+/* Product display starts */
+    #main{
+        padding: 130px 100px;
+        width: 100vw;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 230vh
+    }
+
+    h3{
+        font-family: 'Playfair Display', serif;
+        font-size: 25px;
+    }
+
+    .content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .item{
+        padding: 10px 0px;
+    }
+
+    .item>img{
+        height: 250px;
+    }
+
+    h4{
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    h6{
+        font-size: 15px;
+        color: grey;
+        margin: 10px 0px;
+        font-weight: 400;
+    }
+
+    .price{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    button{
+        background-color: #6196FF;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-size: 16px;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 65px;
+        font-weight: 700;
+    }
+
+    button>img{
+        height: 20px;
+    }
+/* Product display ends */
+
+/* Footer starts */
+    footer{
+        height: 200px;
+        width: 100vw;
+        padding: 0px 100px;
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        background-color: black;
+        color: white;
+        align-items: center;
+        font-weight: 400;
+    }
+
+    #footer-left>img{
+        height: 150px;
+        width: 150px;
+        border-radius: 75px;
+    }
+
+    #footer-right{
+        text-align: end;
+    }
+
+    h5>a{
+        text-decoration: none;
+        color: white;
+    }
+/* Footer ends */
