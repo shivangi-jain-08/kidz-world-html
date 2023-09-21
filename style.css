@@ -27,8 +27,8 @@ body{
 
     #nav-right{
         display: flex;
-        width: 410px;
-        justify-content: flex-end;
+        width: 150px;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -67,10 +67,6 @@ body{
         padding: 130px 100px;
         width: 100vw;
         box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 230vh
     }
 
     h3{
@@ -82,6 +78,7 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 150px;
     }
 
     .item{
@@ -158,3 +155,48 @@ body{
         color: white;
     }
 /* Footer ends */
+
+/* Making the web page responsive */
+
+@media (max-width: 500px){
+    body{
+        text-align: center;
+    }
+
+    #main{
+        padding: auto;
+        margin: auto;
+    }
+
+    header{
+        height: 200px;
+        position: relative;
+    }
+
+    #header-text{
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        text-align: left;
+    }
+
+    h1{
+        font-size: 30px;
+        line-height: 35px;
+        
+    }
+
+    .content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav, footer{
+        padding: 0px 20px;
+    }
+
+    footer{
+        height: 230px;
+    }
+
+}
