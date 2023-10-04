@@ -15,7 +15,7 @@ body{
 
 /* NavBar Starts */
     nav{
-        width: 100vw;
+        width: 100%;
         height: 50px;
         display: flex;
         justify-content: space-between;
@@ -28,12 +28,18 @@ body{
     #nav-right{
         display: flex;
         width: 150px;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
     }
 
     #logo, #cart-1{
         height: 35px;
+    }
+
+    #nav-right-text{
+        display: flex;
+        justify-content: space-evenly;
+        font-weight: 700;
     }
 /* Navbar ends */
 
@@ -168,6 +174,10 @@ body{
         margin: auto;
     }
 
+    #nav-right-text{
+        display: block;
+    }
+
     header{
         height: 200px;
         position: relative;
@@ -176,8 +186,10 @@ body{
     #header-text{
         position: absolute;
         left: 20px;
-        top: 20px;
+        top: 0px;
         text-align: left;
+        width: 100px;
+        font-weight: 700;
     }
 
     h1{
@@ -191,12 +203,13 @@ body{
         justify-content: center;
     }
 
-    nav, footer{
+    nav{
         padding: 0px 20px;
     }
 
     footer{
         height: 230px;
+        padding: 0px 20px;
     }
 
 }
