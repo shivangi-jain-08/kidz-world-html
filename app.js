@@ -103,7 +103,7 @@ function updateCart() {
     for (index = 0; index < items.length; index++) {
         cart = cart + items[index].quantity;
     }
-    cartValue.innerHTML = cart;
+    cartValue.innerHTML = "(" + cart + ")";
 }
 
 for (let i = 0; i < addButtons.length; i++) {
