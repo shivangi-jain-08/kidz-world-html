@@ -27,7 +27,7 @@ body{
 
     #nav-right{
         display: flex;
-        width: 150px;
+        width: 170px;
         justify-content: space-evenly;
         align-items: center;
     }
@@ -37,8 +37,9 @@ body{
     }
 
     #nav-right-text{
+        width: 60%;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         font-weight: 700;
     }
 /* Navbar ends */
